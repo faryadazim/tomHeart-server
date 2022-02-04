@@ -1,5 +1,5 @@
-// export const getPost =()=>{
-//     return {
-//         type:'getPost'
-//     }  
-// }
+export const getPost =()=>{
+    return {
+        type:'getPost'
+    }  
+}

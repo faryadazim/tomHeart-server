@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import Posts from './Posts/Posts.js'
 import Form from './Form/Form.js'
+import {useDispatch} from 'react-redux'
+import { getPost } from "./action/post.js";
+
 const App = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+  dispatch(getPost());
+  }, [dispatch]);
+  
   return <>
   <h3 className='text-center my-4' >tomHeart </h3>
   <div className="container">
