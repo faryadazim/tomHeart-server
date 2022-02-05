@@ -8,6 +8,7 @@ const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    console.log(new Date());
   dispatch(getPost());
   }, [dispatch]);
   
