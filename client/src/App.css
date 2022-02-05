@@ -1,0 +1,11 @@
+body{
+    /* background-color: rgb(182, 0, 0); */
+}
+.form-control , .btn{
+    border-radius: 0 !important;
+}
+.form-control:hover ,.form-control:active,.form-control:focus ,
+.btn:hover ,.btn:active,.btn:focus {
+   outline: none !important;
+ box-shadow: none !important;
+}
